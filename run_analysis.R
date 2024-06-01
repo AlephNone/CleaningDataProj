@@ -142,4 +142,5 @@ View(summary_mean[,1:8])
 write.csv(allset, file = file.path("output","wk4prjAllset.csv"))
 write.csv(mean_and_SD, file = file.path("output", "mean and sd.csv"))
 write.csv(summary_mean, file = file.path("output", "summary means.csv"))
+write.table(summary_mean, file = file.path("output", "summary means.txt"), row.names = FALSE)
 
